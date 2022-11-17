@@ -1,0 +1,30 @@
+.sidebar {
+  width: 72px;
+  background-color: #212121;
+  height: 100vh;
+  color: white;
+}
+.sidebar-wrapper {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  margin-top: 35px;
+  color: #909090;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  &:hover {
+    color: white;
+  }
+  span {
+    margin-top: 5px;
+  }
+}

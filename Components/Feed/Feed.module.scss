@@ -1,0 +1,49 @@
+.cardWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  color: white;
+}
+
+.wrapper {
+  width: 300px;
+  height: 270px;
+  margin-right: 25px;
+}
+.cardTop {
+  position: relative;
+
+  .text {
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+    right: 0;
+    background-color: #444;
+    padding: 3px;
+  }
+}
+
+.title {
+  font-size: 14px;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  color: #aaa;
+  font-size: 14px;
+  .date {
+    padding-left: 20px;
+  }
+}
+
+.avatarname {
+  color: #aaa;
+
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.cardBottom {
+  display: flex;
+  flex-direction: column;
+}
